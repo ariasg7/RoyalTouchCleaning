@@ -552,7 +552,7 @@ function Footer() {
       </div>
       <p className="text-outline pointer-events-none mt-16 text-center font-serif text-[18vw] leading-[0.8] font-semibold select-none">Royal Touch</p>
       <div className="relative border-t border-white/10 bg-ink px-5 py-6 text-center text-xs text-silver/70">
-        © {new Date().getFullYear()} Royal Touch Cleaning Services. All rights reserved.
+        © 2026 Royal Touch Cleaning Services. All rights reserved.
       </div>
     </footer>
   )
