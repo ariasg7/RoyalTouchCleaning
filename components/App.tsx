@@ -48,7 +48,7 @@ function Header() {
   return (
     <header className="fixed inset-x-0 top-4 z-50 px-4">
       <div className="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/10 bg-ink/60 py-2 pr-2 pl-5 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.8)] backdrop-blur-2xl">
-        <a href="#top"><img src="/logo.png" alt="Royal Touch Cleaning Services" className="h-11 w-auto" /></a>
+        <a href="#top"><img src="/img/RoyalTouchClean_nobg.png" alt="Royal Touch Cleaning Services" className="h-16 w-auto" /></a>
         <nav className="hidden items-center gap-7 xl:flex">
           {links.filter(([l]) => l !== 'Results').map(([l, h]) => (
             <a key={l} href={h} className="relative text-[13px] font-medium text-silver transition after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-gold after:transition-all hover:text-white hover:after:w-full">{l}</a>
@@ -530,7 +530,7 @@ function Footer() {
     <footer id="contact" className="relative overflow-hidden bg-ink pt-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
-          <img src="/logo.png" alt="Royal Touch Cleaning Services" className="h-28 w-auto" />
+          <img src="/img/RoyalTouchClean_nobg.png" alt="Royal Touch Cleaning Services" className="h-36 w-auto" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-silver">A Cleaner Space ✦ A Brighter Day. Premium, eco-friendly cleaning for homes, rentals, and offices.</p>
         </div>
         <div>
