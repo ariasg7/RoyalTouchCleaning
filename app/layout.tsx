@@ -14,8 +14,12 @@ export const metadata: Metadata = {
   title: 'Royal Touch Cleaning Services | A Cleaner Space, A Brighter Day',
   description:
     'Explore premium, eco-friendly cleaning services for homes, rentals, and offices, and request a tailored quote or book a convenient cleaning.',
-  robots: { index: false, follow: false },
-  icons: { icon: '/favicon.svg' },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/img/RoyalTouchFav.png', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
